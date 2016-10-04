@@ -36,6 +36,8 @@ Blazing Fast Feedback Loops in the Java Universe
   - artifacts are built once (push artifacts instead of git commit)
 - Emmet
  - In XML type `fast>xml>creation+modification^test>me>try$*10` and press TAB.
+- build screens
+- open pull requests dashboard
 
 ### Prohibit compilation warnings
 
