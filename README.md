@@ -33,6 +33,8 @@ Blazing Fast Feedback Loops in the Java Universe
 - pipelines
   - every change on master goes instantly through all pipeline steps that needs to be passed successfully to release the code to production
   - artifacts are built once (push artifacts instead of git commit)
+- Emmet
+ - In XML type `fast>xml>creation+modification^test>me>try$*10` and press TAB.
 
 ### Prohibit compilation warnings
 
