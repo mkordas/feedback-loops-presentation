@@ -12,6 +12,7 @@ Blazing Fast Feedback Loops in the Java Universe
  - compiler configuration for Java and Groovy
   - `-Xlint:all`
   - `-Werror`
+- `--continue` to gather errors
 - quality plugin
 - script to update maven dependencies
 - custom codeStyleSettings.xml
