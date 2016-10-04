@@ -43,3 +43,16 @@ Blazing Fast Feedback Loops in the Java Universe
 
 - http://programmers.stackexchange.com/questions/94754/how-do-i-convince-my-teammates-that-we-should-not-ignore-compiler-warnings
 - http://mark.koli.ch/fail-build-on-java-compiler-warnings
+
+### Retrospectives
+
+> If it is not fun, you're doing it wrong
+
+Types:
+
+* Speed-car Abyss
+* Speedboat
+* Starfish
+* Six Thinking Hats
+* Dialogue Sheets
+* Sandwich
