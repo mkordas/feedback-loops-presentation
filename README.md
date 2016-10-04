@@ -33,3 +33,8 @@ Blazing Fast Feedback Loops in the Java Universe
 - pipelines
   - every change on master goes instantly through all pipeline steps that needs to be passed successfully to release the code to production
   - artifacts are built once (push artifacts instead of git commit)
+
+### Prohibit compilation warnings
+
+- http://programmers.stackexchange.com/questions/94754/how-do-i-convince-my-teammates-that-we-should-not-ignore-compiler-warnings
+- http://mark.koli.ch/fail-build-on-java-compiler-warnings
