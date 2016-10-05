@@ -1,6 +1,23 @@
 # feedback-loops-presentation
 Blazing Fast Feedback Loops in the Java Universe
 
+## Length
+
+#### Instant
+
+- IDE
+- pair programming
+- compiler
+
+#### Seconds
+
+- unit tests
+- static analysis
+
+#### Minutes
+
+- integration/system tests
+
 ## Ideas
 
 - warnings
