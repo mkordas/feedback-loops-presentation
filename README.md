@@ -5,7 +5,20 @@ Blazing Fast Feedback Loops in the Java Universe
 
 * anything that gives opprotunity to inspect and adapt
 * ability to make constant adjustments
+* do a thing and check how it went
 * cost per assumption...
+* bit of feedback now is better than a lot of feedback later
+* with fast feedback we learn much more
+* anything that prevents change also prevents feedback
+
+## How to?
+
+- parallelize
+- remove duplicates
+- push tests down in pyramid
+- no waiting
+- small pieces
+- great tools
 
 ## Types
 
@@ -18,6 +31,8 @@ Blazing Fast Feedback Loops in the Java Universe
 - demos (dev and business)
 - sign-off
 - iterations
+- metrics
+- exploring
 
 ## Length
 
