@@ -7,6 +7,18 @@ Blazing Fast Feedback Loops in the Java Universe
 * ability to make constant adjustments
 * cost per assumption...
 
+## Types
+
+- retros
+- planning
+- customer opinion
+- creating stories
+- standup
+- ci/build monitor
+- demos (dev and business)
+- sign-off
+- iterations
+
 ## Length
 
 #### Instant
