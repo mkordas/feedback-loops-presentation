@@ -1,6 +1,12 @@
 # feedback-loops-presentation
 Blazing Fast Feedback Loops in the Java Universe
 
+## What it is?
+
+* anything that gives opprotunity to inspect and adapt
+* ability to make constant adjustments
+* cost per assumption...
+
 ## Length
 
 #### Instant
