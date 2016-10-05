@@ -17,6 +17,13 @@ Blazing Fast Feedback Loops in the Java Universe
 #### Minutes
 
 - integration/system tests
+- builds on master/pipelines
+- performance tests
+
+#### Days
+
+- manual/exploratory tests
+- demos/UAT
 
 ## Ideas
 
