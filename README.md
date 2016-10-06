@@ -52,6 +52,7 @@ Blazing Fast Feedback Loops in the Java Universe
 - integration/system tests
 - builds on master/pipelines
 - performance tests
+- health checks
 
 #### Days
 
@@ -95,6 +96,10 @@ Blazing Fast Feedback Loops in the Java Universe
  - In XML type `fast>xml>creation+modification^test>me>try$*10` and press TAB.
 - build screens
 - open pull requests dashboard
+- on each problem
+ - add health check
+ - add rule
+ - add note to README
 
 ### Prohibit compilation warnings
 
