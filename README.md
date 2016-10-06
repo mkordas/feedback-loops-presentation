@@ -100,6 +100,7 @@ Blazing Fast Feedback Loops in the Java Universe
  - add health check
  - add rule
  - add note to README
+- catch exceptions and throwables
 
 ### Prohibit compilation warnings
 
@@ -120,3 +121,11 @@ Types:
 * Sandwich
 
 ### Never leave problems without improvement
+
+Whenever you notice that some feedback was too late try to make it faster in future.
+
+- broken environment: add health check build 
+- style-related commend during code review: add task to enable new static analysis check
+- unmeaningful exception: add more context and fail fast
+- struggling with technology: ask question on StackOverflow (and event answer by yourself)
+- struggling with project: add to knowledge base (README.md, wiki)
