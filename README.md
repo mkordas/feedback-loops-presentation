@@ -118,3 +118,5 @@ Types:
 * Six Thinking Hats
 * Dialogue Sheets
 * Sandwich
+
+### Never leave problems without improvement
