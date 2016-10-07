@@ -137,4 +137,10 @@ Have a suite of really fast and reliable tests
 - very repeatable
 - run in parallel
 - fully isolated
+- FIRST
+  - Fast (milliseconds or less)
+  - Isolated (test only one unit)
+  - Repeatable (able to be run millions of times on any machine with the same result)
+  - Self verifying (either passes or fails)
+  - Timely (written first)
 
