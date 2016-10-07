@@ -102,6 +102,23 @@ Blazing Fast Feedback Loops in the Java Universe
  - add note to README
 - catch exceptions and throwables
 
+### Dependency updates
+
+Maven:
+
+- `mvn versions:display-dependency-updates`
+- `mvn versions:display-plugin-updates`
+
+Gradle:
+
+- `com.github.ben-manes.versions` plugin
+- `gradlew dependencyUpdates`
+
+How?
+
+- project that invokes the above commands in all repositories
+- report for developers is created periodically
+
 ### Prohibit compilation warnings
 
 - http://programmers.stackexchange.com/questions/94754/how-do-i-convince-my-teammates-that-we-should-not-ignore-compiler-warnings
@@ -124,7 +141,7 @@ Types:
 
 Whenever you notice that some feedback was too late try to make it faster in future.
 
-- broken environment: add health check build 
+- broken environment: add health check build
 - style-related commend during code review: add task to enable new static analysis check
 - unmeaningful exception: add more context and fail fast
 - struggling with technology: ask question on StackOverflow (and event answer by yourself)
@@ -152,7 +169,7 @@ Have a suite of really fast and reliable tests
  - Maven plugin
  - Maven parent POM (tricky)
 - use blacklists instead of whitelists
- 
+
 ### Internal Quality Plugin
 
 - zero configuration by default
@@ -180,7 +197,7 @@ Periodically run on master series of builds using different configurations that 
 ### Challenge your tests
 
 - https://github.com/TestingResearchIllinois/NonDex
-- Pitest 
+- Pitest
   - `test-compile org.pitest:pitest-maven:scmMutationCoverage -Dinclude=ADDED,UNKNOWN,MODIFIED -DmutationThreshold=100`
 
 ### Base Plugin
