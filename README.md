@@ -129,3 +129,12 @@ Whenever you notice that some feedback was too late try to make it faster in fut
 - unmeaningful exception: add more context and fail fast
 - struggling with technology: ask question on StackOverflow (and event answer by yourself)
 - struggling with project: add to knowledge base (README.md, wiki)
+
+### Unit Tests
+
+Have a suite of really fast and reliable tests
+- milliseconds (hundreds of tests per second)
+- very repeatable
+- run in parallel
+- fully isolated
+
