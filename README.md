@@ -3,7 +3,7 @@ Blazing Fast Feedback Loops in the Java Universe
 
 ## What it is?
 
-* anything that gives opprotunity to inspect and adapt
+* anything that gives opportunity to inspect and adapt
 * ability to make constant adjustments
 * do a thing and check how it went
 * cost per assumption...
