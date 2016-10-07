@@ -144,3 +144,58 @@ Have a suite of really fast and reliable tests
   - Self verifying (either passes or fails)
   - Timely (written first)
 
+### Code Style / Static Analysis
+
+- Checkstyle, PMD, FindBugs, CodeNarc
+- agree on common rules for all projects
+ - Gradle plugin
+ - Maven plugin
+ - Maven parent POM (tricky)
+- use blacklists instead of whitelists
+ 
+### Internal Quality Plugin
+
+- zero configuration by default
+ - integrates all agreed tools with all rules enabled
+ - disables unwanted rules
+- possibility to customize for project needs
+- instead of `gradlew checkstyleMain pmdMain findbugsMain codenarcMain checkstyleTest pmdTest findbugsTest codenarcTest` just `gradlew quality`
+
+### Late static analysis feedback
+
+- gather violations from all tools and modules
+ - `gradlew quality --continue`
+ - `mvn -fae` or `mvn --fail-at-end`
+- CheckStyle-IDEA
+- FindBugs-IDEA
+- SonarLint
+
+### Sanity build matrix
+
+Periodically run on master series of builds using different configurations that developers may use
+- various Java and Maven versions
+- various parameters like `-DskipTests`?
+- various JVM params like locale
+
+### Challenge your tests
+
+- https://github.com/TestingResearchIllinois/NonDex
+- Pitest 
+  - `test-compile org.pitest:pitest-maven:scmMutationCoverage -Dinclude=ADDED,UNKNOWN,MODIFIED -DmutationThreshold=100`
+
+### Base Plugin
+
+- Applies java, groovy, maven plugins
+- Always shows full stacktraces, even if --stacktrace is forgotten
+- Adds provided configuration (missing in Gradle)
+- Configures repositories with dependencies
+- Adds tuned compiler configuration for Java and Groovy
+ - Displays detailed information about all warnings (-Xlint:all option)
+ - Fails build on any unsuppressed warning (-Werror option)
+- Adds configuration to run tests in parallel
+- Enables rich test logging with summary (Tests run: 3, Failures: 2, Skipped: 1) and full stacktraces
+- Configures wrapper task with latest Gradle
+- Applies taskTree plugin
+- Applies com.github.ben-manes.versions plugin
+ - run gradlew dependencyUpdates to display all dependency updates in project
+- Prints Gradle and JVM versions in the output
