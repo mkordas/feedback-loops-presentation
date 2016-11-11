@@ -1,5 +1,4 @@
-# feedback-loops-presentation
-Blazing Fast Feedback Loops in the Java Universe
+# Blazing Fast Feedback Loops in the Java Universe
 
 ## What it is?
 
